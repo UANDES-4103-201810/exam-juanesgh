@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180620210306) do
+ActiveRecord::Schema.define(version: 20180620230840) do
 
   create_table "crusts", force: :cascade do |t|
     t.string "type"

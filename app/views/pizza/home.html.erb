@@ -1,8 +1,7 @@
 <p id="notice"><%= notice %></p>
 <h1>Joe's Pizza</h1>
 
-<p>
   <strong>Name:</strong>
-  <%= @pizza.name %>
-</p>
-
+  <%= @pizza.each do |fs| %>
+  <p><%= fs.name %></p>
+<% end %>
