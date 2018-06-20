@@ -1,4 +1,6 @@
 class Recipe < ApplicationRecord
-	pizza:integer
-	ingredient:integer
+	#pizza:references
+	#ingredient:references
+	belongs_to :pizza
+	belongs_to :ingredient
 end

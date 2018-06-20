@@ -6,6 +6,11 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    
+
+    <%= link_to '<button type="button">Cart-Logo</button>'.html_safe, cart_show_path %>
+    <%= link_to '<button type="button">New Pizza</button>'.html_safe, pizza_create_path %>
+    <%= link_to '<button type="button">HOME</button>'.html_safe, root_path %>
   </head>
 
   <body>
